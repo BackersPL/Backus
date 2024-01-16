@@ -57,7 +57,7 @@ function updateStatusAndSendMessages() {
 }
 
 client.once('ready', () => {
-  console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ Bot: ${client.user.tag}` już wystartował);
+  console.log(`\x1b[36m%s\x1b[0m`, `|    ✅ Bot: ${client.user.tag}`);
   updateStatusAndSendMessages();
 
   setInterval(() => {
